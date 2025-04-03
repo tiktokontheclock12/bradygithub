@@ -4,7 +4,7 @@ using namespace std;
 
 float average(int i1, int i2, int i3)
 {
-	return i1 + i2 + i3 / 3.0f;
+	return (i1 + i2 + i3) / 3.0f;
 }
 
 int main()
@@ -19,5 +19,8 @@ int main()
 
 	cout << setprecision(1) << fixed << "The average is " << a << endl;
 
+	cout << "press enter to close program.";
+	cin.get();
+	cin.ignore();
 	return 0;
 }
